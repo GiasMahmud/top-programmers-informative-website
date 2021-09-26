@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #4f87c0;
+    text-align: center;
+    padding: 50px;
+    /* width: 75%;*/
+    margin: 0 auto;
+}
+
+.header h1,h3,p{
+    color: azure;
+    line-height: 45px;
+}
+
+
+.sp1{
+    color: rgb(169, 248, 79);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sp2{
+    color: rgb(245, 88, 60);
+    font-weight: bold;
+    font-size: 18px;
+}

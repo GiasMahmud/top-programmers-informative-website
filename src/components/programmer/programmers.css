@@ -1,0 +1,82 @@
+
+.bio-container{
+    border: 2px solid rgb(131, 143, 250);
+    width: 250px;
+    margin: 0;
+    height: 470px;
+    transition: .4s;
+    border-radius: 15px ;
+    box-sizing: border-box;
+}
+
+.bio-container:hover{
+    background-color: rgb(250, 212, 212);
+}
+
+.bio-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50% ;
+    margin: 10px 20%;
+}
+
+.bio-details{
+    padding: 10px;
+}
+
+.name,.currentPosition,.salary,.age, .role{
+    color: black;
+    line-height: 28px;
+    padding: 5px;
+}
+
+.btn{
+    width: 130px;
+    height: 28px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: none;
+    background-color: rgb(241, 93, 67);
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(242, 244, 247);
+    transition: .4s;
+    border-radius: 15px;
+}   
+
+
+.btn:hover{
+    background-color: rgb(120, 173, 253);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.cart-container{
+    margin-left: 15px;
+}
+
+.ic1{
+    margin-right: 10px;
+}
+
+
+.social-icons{
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #34495e;
+    transition: .4s;
+}
+
+.social-icons a:hover{
+    transform: scale(1.1);
+    color: rgb(247, 145, 99);
+}
+
