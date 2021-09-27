@@ -12,10 +12,12 @@ const element = <FontAwesomeIcon className = "ic1" icon={faHandsHelping} />
 const Cart = (props) => {
     
     const {cart} = props
+    
     let total = 0
     for(let programmer of cart){
-        total = total + programmer.Salary
-        let Cname = programmer.name
+        total = total + programmer.salary
+        // let Cname = programmer.name
+        
     }
 
     
