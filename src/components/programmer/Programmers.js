@@ -1,12 +1,12 @@
 import React from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { FaGithub, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa"
-// import { faShoppingCart,} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart,} from '@fortawesome/free-solid-svg-icons'
 import Css from './programmers.css'
 
 
 
-// const element = <FontAwesomeIcon className = "ic1" icon={faShoppingCart} />
+
+const shopingCart = <FontAwesomeIcon className = "ic1" icon={faShoppingCart} />
 
 
 
@@ -30,14 +30,9 @@ const Programmers = (props) => {
                     <p className ="role">Role : {role}</p>
                     <p className = "salary">Salary : ${salary}</p>
                     <button 
-                    onClick ={()=>props.handleBtn(props.programmer)} className = "btn">Add To Cart</button>
+                    onClick ={()=>props.handleBtn(props.programmer)} className = "btn">{shopingCart} Add To Cart</button>
 
-                   {/* <div className="social-icons">
-                        <a href=""><FaGithub/></a>
-                        <a href=""><FaFacebook/></a>
-                        <a href=""><FaLinkedin/></a>
-                        <a href=""><FaTwitter/></a>
-                   </div> */}
+                
                 </div>
             </div>
         

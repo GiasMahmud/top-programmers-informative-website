@@ -8,6 +8,7 @@ const element = <FontAwesomeIcon className = "ic1" icon={faHandsHelping} />
 
 
 
+
 const Cart = (props) => {
     
     const {cart} = props
